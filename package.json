@@ -1,0 +1,29 @@
+{
+  "name": "stffn-react-dvd-screensaver",
+  "description": "The nostalgic DVD screensaver as a React component and hook",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
+  "repository": "git@github.com:samuelweckstrom/react-dvd-screensaver.git",
+  "author": "Samuel Weckström",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.3 || ^17.0 || ^18.0",
+    "react-dom": "^16.3 || ^17.0 || ^18.0"
+  },
+  "scripts": {
+    "start": "rm -rf ./dist && tsc --watch",
+    "build": "rm -rf ./dist && tsc"
+  },
+  "keywords": [
+    "react",
+    "dvd",
+    "screensaver",
+    "marquee",
+    "nostalgia"
+  ]
+}
