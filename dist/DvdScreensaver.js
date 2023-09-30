@@ -20,14 +20,15 @@ var createHash = function () {
 };
 var hashedClassName = createHash();
 export function DvdScreensaver(props) {
+  const fiftyFifty = Math.random() < 0.5;
   var _a = useWindowSize(),
     windowWidth = _a.width,
     windowHeight = _a.height;
   var animationRef = React.useRef({
     animationFrameId: 0,
     impactCount: 0,
-    isPosXIncrement: false,
-    isPosYIncrement: false,
+    isPosXIncrement: fiftyFifty,
+    isPosYIncrement: fiftyFifty,
     containerHeight: 0,
     containerWidth: 0,
     positionX: Math.random() * (windowWidth - 0) + 0,
