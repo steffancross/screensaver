@@ -1,14 +1,14 @@
 {
   "name": "stffn-react-dvd-screensaver",
   "description": "this is a modified version of samuel weckstrom's react-dvd-screensaver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "types": "./dist/index.d.ts",
   "typings": "./dist/index.d.ts",
-  "repository": "git@github.com:samuelweckstrom/react-dvd-screensaver.git",
+  "repository": "https://github.com/steffancross/screensaver",
   "author": "Samuel Weckström -> steffan cross",
   "license": "MIT",
   "peerDependencies": {
